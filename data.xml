@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vehicleData>
+	<Vehicle>
+		<id>1</id>
+		<name>he</name>
+		<coordinates>
+			<X>4</X>
+			<Y>2.0</Y>
+		</coordinates>
+		<creationDate>Sun Mar 20 22:52:35 MSK 2022</creationDate>
+		<enginePower>1.0</enginePower>
+		<capacity>4</capacity>
+		<fuelConsumption>3</fuelConsumption>
+		<fuelType>ANTIMATTER</fuelType>
+	</Vehicle>
+	<Vehicle>
+		<id>2</id>
+		<name>d</name>
+		<coordinates>
+			<X>2</X>
+			<Y>3.0</Y>
+		</coordinates>
+		<creationDate>Sun Mar 20 22:52:35 MSK 2022</creationDate>
+		<enginePower>4.0</enginePower>
+		<capacity>5</capacity>
+		<fuelConsumption>6</fuelConsumption>
+		<fuelType>MANPOWER</fuelType>
+	</Vehicle>
+	<Vehicle>
+		<id>3</id>
+		<name>hi</name>
+		<coordinates>
+			<X>2</X>
+			<Y>3.0</Y>
+		</coordinates>
+		<creationDate>Sun Mar 20 22:52:35 MSK 2022</creationDate>
+		<enginePower>4.0</enginePower>
+		<capacity>5</capacity>
+		<fuelConsumption>6</fuelConsumption>
+		<fuelType>ELECTRICITY</fuelType>
+	</Vehicle>
+	<Vehicle>
+		<id>4</id>
+		<name>Andrey</name>
+		<coordinates>
+			<X>4</X>
+			<Y>3.0</Y>
+		</coordinates>
+		<creationDate>Sun Mar 20 22:52:55 MSK 2022</creationDate>
+		<enginePower>4.0</enginePower>
+		<capacity>5</capacity>
+		<fuelConsumption>6</fuelConsumption>
+		<fuelType>MANPOWER</fuelType>
+	</Vehicle>
+</vehicleData>
