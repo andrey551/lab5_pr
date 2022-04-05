@@ -18,4 +18,9 @@ public enum FuelType {
 
         return nameList.substring(0, nameList.length() -2);
     }
+
+    public static boolean isFuelType(String e) {
+        if( e.equals("ELECTRICITY")|| e.equals("MANPOWER") || e.equals("ANTIMATTER")) return true;
+        return false;
+    }
 }

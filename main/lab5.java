@@ -16,7 +16,7 @@ public class lab5 {
 
     public static void main(String[] args) {
         try(Scanner userScanner = new Scanner(System.in)){
-            final String path = "data.xml";
+            final String path = args[0];
             VehicleAsker vehicleAsker = new VehicleAsker(userScanner);
             FileManager fileManager = new FileManager(path);
             VehicleData vehicleData = new VehicleData(fileManager);
@@ -31,7 +31,7 @@ public class lab5 {
                 new SaveCommand(vehicleData),
                 new ExecuteScriptCommand(),
                 new ExitCommand(),
-                new RemoveGreaterCommand(vehicleData, vehicleAsker),
+                new RemoveFirstCommand(vehicleData),
                 new AddIfMaxCommand(vehicleData, vehicleAsker),
                 new RemoveGreaterCommand(vehicleData, vehicleAsker),
                 new GroupCountingBycapacityCommand(vehicleData),
@@ -45,6 +45,9 @@ public class lab5 {
         } catch (NullPointerException e) {
             e.printStackTrace();
             Console.println("Collection is null");
+        } catch (ArrayIndexOutOfBoundsException e) {
+            Console.println("Missing file name argument!");
+            Console.println("format: java -jar <lab05.jar> <filename>");
         }
     }
 }
